@@ -2,16 +2,17 @@
   "manifest_version": 3,
   "name": "Rake Survival",
   "version": "1.0.0",
-  "description": "Nightly survival game against a hunting rake.",
-  "permissions": [
-    "activeTab"
-  ],
+  "description": "Survive the night. Hunt the rake. Day/night cycle survival game.",
   "action": {
     "default_title": "Rake Survival",
     "default_popup": "popup.html"
   },
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [],
   "content_security_policy": {
-    "extension_pages": "script-src 'self' 'wasm-unsafe-eval' https://cdn.jsdelivr.net; object-src 'self';"
+    "extension_pages": "script-src 'self' https://cdn.jsdelivr.net; object-src 'self'"
   },
   "web_accessible_resources": [
     {
