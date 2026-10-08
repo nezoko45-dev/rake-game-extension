@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Rake Survival</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <div class="row">
+        <span>Day / Night</span>
+        <strong id="clockLabel">18:00</strong>
+      </div>
+      <div class="row">
+        <span>State</span>
+        <strong id="stateLabel">Waiting</strong>
+      </div>
+      <div class="row">
+        <span>Health</span>
+        <strong id="healthLabel">100</strong>
+      </div>
+      <div class="row">
+        <span>Rake hits</span>
+        <strong id="rakeHitsLabel">0</strong>
+      </div>
+    </div>
+
+    <div id="gameContainer">
+      <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <div id="controls">
+      <div class="control-group">
+        <span class="label">Movement:</span>
+        <span class="key">W</span>
+        <span class="key">A</span>
+        <span class="key">S</span>
+        <span class="key">D</span>
+      </div>
+      <div class="control-group">
+        <span class="label">Attack:</span>
+        <span class="key">E</span>
+      </div>
+      <div class="control-group">
+        <span class="label">Parry:</span>
+        <span class="key">SPACE</span>
+      </div>
+    </div>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

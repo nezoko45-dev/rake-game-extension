@@ -70,7 +70,7 @@ The game logs significant events:
 ✓ Model loaded successfully
 ✓ Game ready!
 🎯 Player hit rake! (85 HP remaining)
-🛓 Rake attacked player! (88 HP remaining)
+🪓 Rake attacked player! (88 HP remaining)
 🛡️ Parry successful!
 ✓ Rake defeated!
 ☠️ Player defeated!
